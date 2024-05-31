@@ -1,0 +1,104 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: poppins;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: #f0f2f5;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.facebook-bio-card {
+  background-color: #fff;
+  padding: 15px;
+  width: 490px;
+  border-radius: 10px;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  margin-top: 200px;
+}
+.fb-bio-header {
+  padding-bottom: 10px;
+}
+.btn-prymary {
+  width: 100%;
+  background-color: #e4e6eb;
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.btns {
+  text-align: right;
+  padding: 5px 0;
+}
+.small-btn {
+  width: auto;
+}
+.btn-prymary:hover {
+  background: #d8dadf;
+}
+.fb-bio-edit textarea {
+  width: 100%;
+  height: 60px;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 14px;
+  font-weight: 500;
+  border: 1px solid #ced0d4;
+  border-radius: 5px;
+  background: #f0f2f5;
+}
+.fb-bio-edit textarea::placeholder {
+  color: #c4c9ce;
+}
+
+.fb-bio-edit textarea:hover,
+.fb-bio-edit textarea:focus-visible:hover {
+  background: #e4e6e9;
+}
+.fb-bio-edit textarea:focus {
+  border-color: #0866ff;
+  background-color: #fff;
+}
+.fb-bio-edit textarea:focus-visible {
+  outline: none;
+}
+.fb-bio-edit p {
+  font-size: 12px;
+  text-align: right;
+}
+.btn-blue {
+  background: #0866ff;
+  color: #fff;
+}
+.btn-blue:hover {
+  background: #0861f2;
+}
+.fb-bio-show p {
+  text-align: center;
+  padding: 10px 0;
+  font-size: 14px;
+}
+.disabled {
+  background: #e4e6eb;
+  color: #c1c3c7;
+  cursor: not-allowed;
+}
+
+.fb-bio-edit,
+.fb-bio-show {
+  display: none;
+}

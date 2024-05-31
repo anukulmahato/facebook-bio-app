@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Facebook Bio Application</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <div class="facebook-bio-card">
+      <!-- FB bio Header -->
+      <div class="fb-bio-header">
+        <h3>Intro</h3>
+      </div>
+      <!-- FB bio body -->
+      <div class="fb-bio-body">
+        <!-- FB bio add -->
+        <div class="fb-bio-add">
+          <button class="btn-prymary" id="bio-add">Add bio</button>
+        </div>
+        <!-- FB bio edit -->
+        <div class="fb-bio-edit">
+          <textarea
+            placeholder="Describe who you are"
+            id="bio-content"
+          ></textarea>
+          <p id="remain">101 characters remaining</p>
+          <div class="btns">
+            <button class="btn-prymary small-btn" id="bio-cancel">
+              Cancel
+            </button>
+            <button class="btn-prymary small-btn disabled" id="bio-save">
+              Save
+            </button>
+          </div>
+        </div>
+        <!-- FB bio show -->
+        <div class="fb-bio-show">
+          <p id="bio_data"></p>
+          <button class="btn-prymary" id="bio-edit">Edit bio</button>
+        </div>
+      </div>
+    </div>
+    <script src="./src/data.js"></script>
+    <script src="./src/functions.js"></script>
+    <script src="./src/models.js"></script>
+    <script src="./src/main.js"></script>
+  </body>
+</html>
